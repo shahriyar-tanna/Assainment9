@@ -1,0 +1,380 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+/*-------------------Header-----------------*/
+
+header{
+	width: 100%;
+	float: left;
+	background: url(../img/background.jpg)no-repeat;
+	background-size: cover;
+	position: center top;
+	padding-top: 50px;
+}
+.two button{
+	float: right;
+}
+span{
+	color: #cfd0d2;
+}
+.two a{
+	color: white;
+}
+.three{
+	text-align: center;
+}
+.three h1{
+	color: white;
+	padding-top: 175px;
+	font-size: 80px;
+}
+.three p{
+	color: #cfd0d2;
+	margin: 40px 220px;
+    	font-size: 24px;
+}
+.btn{
+	border: 1px solid #cfd0d2;
+	border-radius: 10px;
+    	background: transparent;
+    	font-size: 15px;
+    	color: white;
+    	padding: 10px 0px;
+    	width: 238px;
+    	margin: 70px 0px 175px 0px;
+	transition: 1s;
+}
+.btn:hover{
+	background: #f7600e;
+}
+.four{
+	text-align: center;
+	margin-bottom: 50px;
+}
+.fa.fa-angle-down{
+	color: white;
+	font-size: 30px;
+	border: 2px solid white;
+	border-radius: 50%;
+	display: inline-block;
+	width: 40px;
+   	height: 40px;
+	cursor: pointer;
+	line-height: 38px;
+	text-align: center;
+}
+
+/*-------------------About------------------*/
+
+.about{
+	width: 100%;
+	float: left;
+	padding: 100px 0px;
+	text-align: center;
+}
+.five h5{
+	padding: 30px 0px;
+}
+.five p{
+	margin: 0px 15px;
+}
+
+/*----------------Subscribe-----------------*/
+
+.sub{
+	width: 100%;
+	float: left;
+	background: url(../img/contact.jpg)no-repeat;
+	background-size: cover;
+	position: center top;
+	padding: 100px 0px;
+}
+.six{
+	text-align: center;
+}
+.form-control{
+	width: 100%;
+}
+.sub-btn{
+	border: none;
+	background-color: #f7600e;
+	padding: 7px 100px;
+	border-radius: 10px;
+	color: white;
+	cursor: pointer;
+}
+
+/*---------------Work-------------------*/
+
+.work{
+	width: 100%;
+	float: left;
+	padding: 100px 0px;
+	text-align: center;
+}
+.work p{
+	padding: 35px 0px 100px 0px;
+	margin: 0px 300px; 
+}
+.nine{
+	padding-top: 30px;
+}
+.img-hover{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+}
+.img-hover:hover .img-hover-content{
+	right: 0;
+}
+.img-hover-content{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: #f7600ec9;
+	border-radius: 10px; 
+	top: 0px;
+	right: -100%;
+	transition: 1s ease-in-out;
+}
+.img-hover-content h4{
+	position: absolute;
+	color: white;
+	top: 25%;
+	left: 22%;
+}
+.img-hover-content h6{
+	position: absolute;
+	top: 40%;
+	left:5%;
+	right: 5%;
+	color: white;
+	font-size: 15px;
+}
+.img-hover-content .img-btn{
+	position: absolute;
+	top: 65%;
+	left: 20%;
+	border: none;
+	padding: 20px 50px;
+	color: #f7600e;
+	border-radius: 10px;
+	cursor: pointer;
+}
+.ten{
+	padding-top: 100px; 
+}
+.show-btn{
+	border: 1px solid grey;
+	background: transparent;
+	padding: 20px 60px;
+	border-radius: 10px;
+	cursor: pointer;
+}
+.special{
+	width: 100%;
+	float: left;
+	background: url(../img/special.jpg)no-repeat;
+	background-size: cover;
+	position: center top;
+	padding: 100px 0px;
+	text-align: center;
+}
+.special h4{
+	color: white;
+	padding: 55px 0px;
+	margin: 0px 130px;
+}
+.special h6{
+	color: white;
+}
+
+/*------------------Team------------*/
+
+.team{
+	width: 100%;
+	float: left;
+	text-align: center;
+	padding: 100px 0px;
+}
+.team span{
+	color: #f7600e;
+}
+.team1{
+	color: grey;
+	padding: 35px 0px 100px 0px;
+	margin: 0px 300px; 
+}
+.team-img h3{
+	padding: 35px 0px;
+	color: grey;
+}
+.fa.fa-facebook{
+	background-color: #3b5998;
+	color: white;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	border-radius: 50%;
+	margin-right: 10px;
+}
+.fa.fa-twitter{
+	background-color: #00acee;
+	color: white;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	border-radius: 50%;
+	margin-right: 10px;
+}
+.fa.fa-google-plus{
+	background-color: #db4a39;
+	color: white;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	border-radius: 50%;
+}
+.eleven h6{
+	padding-top: 35px;
+	color: grey;
+}
+.team-item{
+	filter: grayscale(100%);
+	cursor: pointer;
+}
+.team-item:hover img{
+	transform: translatey(-22px);
+	transition: .5s ease-in-out;
+	border-bottom: 4px solid #f7600e;
+}
+.team-item:hover h3{
+	color: black;
+}
+.team-item:hover h6{
+	color: black;
+}
+.team-item:hover{
+	filter: grayscale(0%);
+}
+
+/*-------------Contact------------------*/
+
+.contact{
+	width: 100%;
+	float: left;
+	text-align: center;
+	background: url(../img/contact.jpg)no-repeat;
+	backgound-size: cover;
+	padding: 100px 0px;
+}
+.contact span{
+	color: #f7600e;
+}
+.con1{
+	color: grey;
+	padding: 35px 0px 100px 0px;
+	margin: 0px 300px; 
+}
+.con2{
+	color: white;
+}
+.form-control1{
+	width: 30%;
+	margin-right: 20px;
+	padding: 10px;
+	border-radius: 10px;
+	border: none;
+}
+.form-control2{
+	width: 30%;
+	padding: 10px;
+	border-radius: 10px;
+	border: none;
+}
+textarea{
+	width: 690px;
+	height: 200px;
+	margin-top: 20px;
+	padding: 5px;
+	border-radius: 10px;
+	border: none;
+}
+.con-btn{
+	background-color: #f7600e;
+	color: white;
+	font-size: 20px;
+	padding: 10px 75px;
+	border: none;
+	border-radius: 10px;
+	margin: 20px 0px 0px 95px;
+	cursor: pointer;
+}
+.fourteen{
+	    padding: 25px 130px 0px 0px;
+}
+.fourteen .fa.fa-dribbble{
+	background-color: #ea4c89;
+	color: white;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	border-radius: 50%;
+	margin-right: 10px;
+}
+.fourteen .fa.fa-behance{
+	background-color: #053eff;
+	color: white;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	border-radius: 50%;
+}
+.fourteen .fa.fa-facebook{
+	background-color: #3b5998;
+	color: white;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	border-radius: 50%;
+	margin-right: 10px;
+}
+.fourteen .fa.fa-twitter{
+	background-color: #00acee;
+	color: white;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	border-radius: 50%;
+	margin-right: 10px;
+}
+.fourteen .fa.fa-google-plus{
+	background-color: #db4a39;
+	color: white;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	border-radius: 50%;
+	margin-right: 10px;
+}
+footer{
+	width: 100%;
+	float: left;
+	background-color: #3b434c;
+	padding: 45px 0px;
+	color: white;	
+}
+footer span{
+	color: red;
+}
+.copyright2{
+	float: right;
+}
+
+@media(min-width:320px) and (max-width:576px){
+	
+	
+}
